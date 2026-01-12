@@ -1,0 +1,52 @@
+
+/* button back to top */
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0);
+}
+
+.back-to-top {
+    border-radius: 50%;
+    background-color: #9b87f5;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+    position: fixed;
+    display: inline-block;
+    z-index: 9999;
+    right: 30px;
+    bottom: 30px;
+    transition: all .4s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    border: #9b87f5;
+}
+
+.back-to-top:hover {
+    background-color: #053664;
+    color: #fff;
+}
+
+
+.float-bob-y {
+  animation-name: float-bob-y;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; /* smoother motion */
+}
+
+@keyframes float-bob-y {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
