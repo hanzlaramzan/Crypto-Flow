@@ -55,7 +55,7 @@ function Home() {
                         <button className="flex items-center justify-center gap-2 bg-[#9b87f5] hover:bg-[#6e59a5] text-white   px-8 py-3 rounded-xl shadow-lg transition duration-300 w-full sm:w-auto">
                             Start Trading
                             <img
-                            src="src/assets/next.png"
+                            src="/src/assets/next.png"
                             alt="arrow"
                             className="w-5 h-5 ml-2"
                             />
