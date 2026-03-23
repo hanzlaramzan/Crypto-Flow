@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 
-import img1 from "../src/assets/laptop.jpeg";
-import img2 from "../src/assets/girlsCoding.jpeg";
-import img3 from "../src/assets/coding2.jpeg";
-import img4 from "../src/assets/coding3.jpeg";
+import img1 from "./assets/laptop.jpeg";
+import img2 from "./assets/girlsCoding.jpeg";
+import img3 from "./assets/coding2.jpeg";
+import img4 from "./assets/coding3.jpeg";
 
 function Testimonials() {
 
