@@ -4,10 +4,6 @@ import { useState, useEffect } from 'react';
 // ✅ fixed imports (Vite correct path)
 import nextImg from "../src/assets/next.png";
 
-
-// ✅ Image imports - same pattern as Testimonials component
-import nextArrow from "./assets/next.png";
-
 function Ready() {
   return (
 <<<<<<< HEAD
