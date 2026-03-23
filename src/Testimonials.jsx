@@ -31,7 +31,7 @@ function Testimonials() {
     {
       name: "Emma Thompson",
       role: "Investment Advisor",
-      text: "Their customer support is phenomenal.",
+      text: "Their customer support is phenomenal. Any time I've had a question or issue, the team has resolved it quickly. The platform itself is lightning fast and reliable.",
       image: img4
     }
   ];
