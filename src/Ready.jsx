@@ -1,7 +1,14 @@
 import React from 'react'
+<<<<<<< HEAD
 
 // ✅ Image imports - same pattern as Testimonials component
 import nextArrow from "./assets/next.png";
+=======
+import { useState, useEffect } from 'react';
+
+// ✅ fixed imports (Vite correct path)
+import nextImg from "../src/assets/next.png";
+>>>>>>> dfd698938a6dff0f9d30ef8f294c7be27d7a8fc4
 
 function Ready() {
   return (
