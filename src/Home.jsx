@@ -7,6 +7,12 @@ import Pricing from "./Pricing";
 import AskQuestions from "./AskQuestions";
 import Ready from "./Ready";
 
+import nextArrow from "./assets/next.png";
+import upRightArrow from "./assets/up-right-arrow.png";
+import logo from "./assets/logo.avif";
+import chartUp from "./assets/chart-up.png";
+import verified from "./assets/verified.png";
+
 function Home() {
   const [showButton, setShowButton] = useState(false);
 
@@ -55,7 +61,7 @@ function Home() {
                         <button className="flex items-center justify-center gap-2 bg-[#9b87f5] hover:bg-[#6e59a5] text-white   px-8 py-3 rounded-xl shadow-lg transition duration-300 w-full sm:w-auto">
                             Start Trading
                             <img
-                            src="/src/assets/next.png"
+                            src={nextArrow}
                             alt="arrow"
                             className="w-5 h-5 ml-2"
                             />
@@ -63,7 +69,7 @@ function Home() {
                         <button className="flex items-center justify-center gap-2 bg-[#09090b] hover:bg-[#1e2a3f] text-white px-8 py-3 rounded-xl shadow-lg transition duration-300 w-full sm:w-auto">
                             view Demo   
                             <img
-                            src="src/assets/up-right-arrow.png"
+                            src={upRightArrow}
                             alt="arrow"
                             className="w-5 h-5 ml-2"
                             />
@@ -93,7 +99,7 @@ function Home() {
                 <div className="w-full lg:w-1/2 mt-12 lg:mt-0 animated-right-right pt-10 pb-[20px] lg:pt-0 lg:pb-0">
                   <div className="relative max-w-md mx-auto float-bob-y">
                       <img 
-                          src={"src/assets/logo.avif"} 
+                          src={logo}
                           alt="logo" 
                           className="w-full h-auto rounded-xl shadow-2xl"
                           style={{border:"1px solid rgba(255, 255, 255, 0.1)"}}
@@ -104,7 +110,7 @@ function Home() {
                           style={{border:"1px solid rgba(255, 255, 255, 0.1)"}}>
                           <div className="flex items-center space-x-2 sm:space-x-3">
                               <div className="h-8 w-8 sm:h-10 sm:w-10 bg-green-500/20 rounded-full flex items-center justify-center">
-                                  <img src={"src/assets/chart-up.png"} alt="" className="h-4 w-4 sm:h-6 sm:w-6 lg:h-8 lg:w-8"/>
+                                  <img src={chartUp} alt="" className="h-4 w-4 sm:h-6 sm:w-6 lg:h-8 lg:w-8"/>
                               </div>
                               <div>
                                   <p className="text-xs sm:text-xs text-gray-400">24th Change</p>
@@ -118,7 +124,7 @@ function Home() {
                           style={{border:"1px solid rgba(255, 255, 255, 0.1)"}}>
                           <div className="flex items-center space-x-2 sm:space-x-3">
                               <div className="h-8 w-8 sm:h-10 sm:w-10 bg-purple-500/50 rounded-full flex items-center justify-center">
-                                  <img src={"src/assets/verified.png"} alt="" className="h-4 w-4 sm:h-6 sm:w-6 lg:h-8 lg:w-8"/>
+                                  <img src={verified} alt="" className="h-4 w-4 sm:h-6 sm:w-6 lg:h-8 lg:w-8"/>
                               </div>
                               <div>
                                   <p className="text-xs sm:text-xs text-gray-400">Security Level</p>
